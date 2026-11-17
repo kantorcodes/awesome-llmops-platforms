@@ -134,6 +134,7 @@ projects = [
 name = "Guardrails"
 blurb = "Check inputs and outputs at runtime and block what should not pass."
 projects = [
+  { repo = "hashgraph-online/hol-guard", desc = "Local policy checks for supported AI coding-agent tool actions, with allow, block and approval decisions." },
   { repo = "NVIDIA-NeMo/Guardrails", desc = "Programmable guardrails for conversational LLM systems.", license = "Apache-2.0" },
   { repo = "guardrails-ai/guardrails", desc = "Validators that check and correct LLM inputs and outputs." },
   { repo = "protectai/llm-guard", desc = "Input and output scanners for LLM interactions." },
